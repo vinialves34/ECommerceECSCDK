@@ -5,7 +5,7 @@
 		"body": [
 			"import * as cdk from 'aws-cdk-lib';",
 			"import { Construct } from 'constructs';\n",
-			"export class $1 {",
+			"export class $1 extends cdk.Stack {",
 			"\tconstructor(scope: Construct, id: string, props: cdk.StackProps) {",
 			"\t\tsuper(scope, id, props)",
 			"\t}",
