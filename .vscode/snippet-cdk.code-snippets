@@ -1,0 +1,16 @@
+{
+	"Create class stack": {
+		"scope": "typescript",
+		"prefix": "cdk-stack",
+		"body": [
+			"import * as cdk from 'aws-cdk-lib';",
+			"import { Construct } from 'constructs';\n",
+			"export class $1 {",
+			"\tconstructor(scope: Construct, id: string, props: cdk.StackProps) {",
+			"\t\tsuper(scope, id, props)",
+			"\t}",
+			"}",
+		],
+		"description": "Cria a estrutura de um stack"
+	}
+}
